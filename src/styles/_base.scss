@@ -1,0 +1,47 @@
+.container#content {
+	margin-top: 60px;
+}
+body {
+	background-color: $light-gray;
+	font-family: $site-font;
+}
+a {
+	color: green;
+	&:hover {
+		color: lightgreen;
+		text-decoration: none;
+	}
+}
+
+h1 {
+	margin-bottom: 20px;
+	text-align: center;
+	padding-top: 10px;
+}
+.navbar {
+	background-color: #73a580;
+	// border-right: 1px solid rgba(0, 0, 0, 0.4);
+	// border-left: 1px solid rgba(0, 0, 0, 0.4);
+	border-bottom: 3px solid #adf7b6;
+	line-height: 1;
+}
+
+.navbar-light .navbar-brand {
+	color: white;
+	font-family: $site-title-font;
+	font-size: 2rem;
+	&:hover {
+		color: lightgray;
+	}
+}
+.navbar-light .navbar-nav .nav-link {
+	color: white;
+	&:hover {
+		color: #adf7b6;
+	}
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
