@@ -1,0 +1,17 @@
+.card {
+	margin-bottom: 30px;
+	border-radius: 10px;
+}
+
+.card-image-top {
+	border-radius: 10px 10px 0 0;
+}
+ul.post-tags {
+	padding: 0;
+	display: inline-flex;
+	list-style: none;
+
+	li {
+		margin-right: 10px;
+	}
+}
